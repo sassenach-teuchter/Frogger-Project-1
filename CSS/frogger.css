@@ -1,4 +1,6 @@
-*{
+/* REMEMBER YOUR PROJECT FOLDER HAS MOVED AND IS ON THE DESKTOP! NOT IN THE lthur LOCATION "C:\Users\lthur\OneDrive\Desktop\FroggerProject" */
+
+* {
     box-sizing: border-box;
 }
 
@@ -11,7 +13,7 @@ other wise the the last cells wraps onto the next row */
     width: 2010px;
     height: 2010px;
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
 }
 
 .game-grid div {
@@ -31,15 +33,14 @@ other wise the the last cells wraps onto the next row */
 }
 
 .froggy {
+    border-radius: 50%w;
     background-color: blue;
-    
-
 }
 
 /* border-radius: 50%;
     background-color: #fff;
-    box-shadow: */
-    /* 0 0 60px 30px #fff,  inner white */
-    /* 0 0 100px 60px #f0f, middle magenta */
-    /* 0 0 140px 90px #0ff; outer cyan */
+    box-shadow: 
+0 0 60px 30px #fff,  inner white
+0 0 100px 60px #f0f, middle magenta
+0 0 140px 90px #0ff; outer cyan */
 
